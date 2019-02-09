@@ -13,6 +13,7 @@
 - [UICollectionViewDataSource](https://developer.apple.com/documentation/uikit/uicollectionviewdatasource)
 - [UICollectionViewDelegateFlowLayout](https://developer.apple.com/documentation/uikit/uicollectionviewdelegateflowlayout)
 - [Cards Cocoapods](https://github.com/PaoloCuscela/Cards/blob/master/README.md)
+- [Install Cocoapods](https://stackoverflow.com/questions/20755044/how-to-install-cocoapods)
 
 
 ## Authors
