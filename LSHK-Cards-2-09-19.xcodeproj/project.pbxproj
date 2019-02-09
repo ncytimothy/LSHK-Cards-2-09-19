@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		30603E02B5B98664E6E74858 /* Pods_LSHK_Cards_2_09_19.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23FC28AFD8BA5915677B0825 /* Pods_LSHK_Cards_2_09_19.framework */; };
 		C447A4E0220EDF340078AACA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C447A4DF220EDF340078AACA /* AppDelegate.swift */; };
 		C447A4E2220EDF340078AACA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C447A4E1220EDF340078AACA /* ViewController.swift */; };
 		C447A4E5220EDF340078AACA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C447A4E3220EDF340078AACA /* Main.storyboard */; };
@@ -15,6 +16,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04D6010A219B9E3077979D24 /* Pods-LSHK-Cards-2-09-19.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSHK-Cards-2-09-19.release.xcconfig"; path = "Pods/Target Support Files/Pods-LSHK-Cards-2-09-19/Pods-LSHK-Cards-2-09-19.release.xcconfig"; sourceTree = "<group>"; };
+		23FC28AFD8BA5915677B0825 /* Pods_LSHK_Cards_2_09_19.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LSHK_Cards_2_09_19.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F25312BB3DA3D8ED32BCA90 /* Pods-LSHK-Cards-2-09-19.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LSHK-Cards-2-09-19.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LSHK-Cards-2-09-19/Pods-LSHK-Cards-2-09-19.debug.xcconfig"; sourceTree = "<group>"; };
 		C447A4DC220EDF340078AACA /* LSHK-Cards-2-09-19.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LSHK-Cards-2-09-19.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C447A4DF220EDF340078AACA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C447A4E1220EDF340078AACA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -29,17 +33,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30603E02B5B98664E6E74858 /* Pods_LSHK_Cards_2_09_19.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D872CFF7C43453194C883C7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5F25312BB3DA3D8ED32BCA90 /* Pods-LSHK-Cards-2-09-19.debug.xcconfig */,
+				04D6010A219B9E3077979D24 /* Pods-LSHK-Cards-2-09-19.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C447A4D3220EDF340078AACA = {
 			isa = PBXGroup;
 			children = (
 				C447A4DE220EDF340078AACA /* LSHK-Cards-2-09-19 */,
 				C447A4DD220EDF340078AACA /* Products */,
+				1D872CFF7C43453194C883C7 /* Pods */,
+				FD36158AA17DB9137E3B07A9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +80,14 @@
 			path = "LSHK-Cards-2-09-19";
 			sourceTree = "<group>";
 		};
+		FD36158AA17DB9137E3B07A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				23FC28AFD8BA5915677B0825 /* Pods_LSHK_Cards_2_09_19.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +95,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C447A4EE220EDF360078AACA /* Build configuration list for PBXNativeTarget "LSHK-Cards-2-09-19" */;
 			buildPhases = (
+				D6411A0D625046C504BCC625 /* [CP] Check Pods Manifest.lock */,
 				C447A4D8220EDF340078AACA /* Sources */,
 				C447A4D9220EDF340078AACA /* Frameworks */,
 				C447A4DA220EDF340078AACA /* Resources */,
+				407E5C409B189D7B28EB308E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -129,6 +155,55 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		407E5C409B189D7B28EB308E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LSHK-Cards-2-09-19/Pods-LSHK-Cards-2-09-19-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Cards/Cards.framework",
+				"${BUILT_PRODUCTS_DIR}/Player/Player.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cards.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Player.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LSHK-Cards-2-09-19/Pods-LSHK-Cards-2-09-19-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6411A0D625046C504BCC625 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LSHK-Cards-2-09-19-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C447A4D8220EDF340078AACA /* Sources */ = {
@@ -280,6 +355,7 @@
 		};
 		C447A4EF220EDF360078AACA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F25312BB3DA3D8ED32BCA90 /* Pods-LSHK-Cards-2-09-19.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +374,7 @@
 		};
 		C447A4F0220EDF360078AACA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04D6010A219B9E3077979D24 /* Pods-LSHK-Cards-2-09-19.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
