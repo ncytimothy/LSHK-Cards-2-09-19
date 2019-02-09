@@ -42,6 +42,12 @@ class ViewController: UICollectionViewController, UICollectionViewDelegateFlowLa
         return CGSize(width: view.frame.width, height: 230)
     }
     
+    override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        guard let cell = collectionView.cellForItem(at: indexPath) as? CardCell else { return }
+        let detailController = DetailController()
+        cell.card.animationController(forPresented: self, presenting: detailController, source: self)
+    }
+    
     
     
 }
@@ -52,12 +58,13 @@ extension UIView {
         
         translatesAutoresizingMaskIntoConstraints = false
         
+        
         if let top = top {
-            self.topAnchor.constraint(equalTo: top, constant: paddingTop).isActive = true
+            safeAreaLayoutGuide.topAnchor.constraint(equalTo: top, constant: paddingTop).isActive = true
         }
         
         if let leading = leading {
-            self.leadingAnchor.constraint(equalTo: leading, constant: paddingLeading).isActive = true
+            leadingAnchor.constraint(equalTo: leading, constant: paddingLeading).isActive = true
         }
         
         if let bottom = bottom {

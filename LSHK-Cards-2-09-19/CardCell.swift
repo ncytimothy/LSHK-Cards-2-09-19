@@ -20,18 +20,23 @@ class CardCell: UICollectionViewCell {
         card.itemSubtitle = "Flap That !"
         card.textColor = UIColor.white
         
+        
         card.translatesAutoresizingMaskIntoConstraints = false
         
         return card
     }()
     
+    @objc func handleCard() {
+        print("Handling card tap...")
+    }
     
     override init(frame: CGRect) {
         super.init(frame: frame)
         
         addSubview(card)
         
-         card.anchor(top: safeAreaLayoutGuide.topAnchor, leading: safeAreaLayoutGuide.leadingAnchor, bottom: nil, trailing: safeAreaLayoutGuide.trailingAnchor, paddingTop: 8, paddingLeading: 8, paddingBottom: 0, paddingTrailing: 8, width: frame.width, height: 230)
+        card.anchor(top: nil, leading: leadingAnchor, bottom: nil, trailing: trailingAnchor, paddingTop: 0, paddingLeading: 8, paddingBottom: 0, paddingTrailing: 8, width: 0, height: 230)
+        
         
     }
     
