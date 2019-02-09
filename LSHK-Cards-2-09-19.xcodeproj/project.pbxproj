@@ -30,6 +30,7 @@
 		C447A4EB220EDF360078AACA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C4C2106F220EE5A200062E0D /* DetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
 		C4C21071220EE7B500062E0D /* CardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCell.swift; sourceTree = "<group>"; };
+		C4CBFDFC220F12C4001A4595 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +57,7 @@
 		C447A4D3220EDF340078AACA = {
 			isa = PBXGroup;
 			children = (
+				C4CBFDFC220F12C4001A4595 /* README.md */,
 				C447A4DE220EDF340078AACA /* LSHK-Cards-2-09-19 */,
 				C447A4DD220EDF340078AACA /* Products */,
 				1D872CFF7C43453194C883C7 /* Pods */,
