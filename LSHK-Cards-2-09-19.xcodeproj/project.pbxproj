@@ -13,6 +13,8 @@
 		C447A4E5220EDF340078AACA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C447A4E3220EDF340078AACA /* Main.storyboard */; };
 		C447A4E7220EDF360078AACA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C447A4E6220EDF360078AACA /* Assets.xcassets */; };
 		C447A4EA220EDF360078AACA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C447A4E8220EDF360078AACA /* LaunchScreen.storyboard */; };
+		C4C21070220EE5A200062E0D /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C2106F220EE5A200062E0D /* DetailController.swift */; };
+		C4C21072220EE7B500062E0D /* CardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C21071220EE7B500062E0D /* CardCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		C447A4E6220EDF360078AACA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C447A4E9220EDF360078AACA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C447A4EB220EDF360078AACA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4C2106F220EE5A200062E0D /* DetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
+		C4C21071220EE7B500062E0D /* CardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,11 +75,13 @@
 			isa = PBXGroup;
 			children = (
 				C447A4DF220EDF340078AACA /* AppDelegate.swift */,
+				C4C21071220EE7B500062E0D /* CardCell.swift */,
 				C447A4E1220EDF340078AACA /* ViewController.swift */,
 				C447A4E3220EDF340078AACA /* Main.storyboard */,
 				C447A4E6220EDF360078AACA /* Assets.xcassets */,
 				C447A4E8220EDF360078AACA /* LaunchScreen.storyboard */,
 				C447A4EB220EDF360078AACA /* Info.plist */,
+				C4C2106F220EE5A200062E0D /* DetailController.swift */,
 			);
 			path = "LSHK-Cards-2-09-19";
 			sourceTree = "<group>";
@@ -211,7 +217,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C447A4E2220EDF340078AACA /* ViewController.swift in Sources */,
+				C4C21070220EE5A200062E0D /* DetailController.swift in Sources */,
 				C447A4E0220EDF340078AACA /* AppDelegate.swift in Sources */,
+				C4C21072220EE7B500062E0D /* CardCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
